@@ -10,6 +10,18 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBAction func textfield(_ sender: UITextField) {
+    }
+    
+    @IBAction func enterButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBOutlet weak var profilePic: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
