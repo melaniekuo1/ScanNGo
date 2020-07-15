@@ -17,6 +17,7 @@
 		E471A3D424BE826500FFDBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E471A3D224BE826500FFDBC0 /* LaunchScreen.storyboard */; };
 		E471A3DF24BE826500FFDBC0 /* ScanNGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3DE24BE826500FFDBC0 /* ScanNGoTests.swift */; };
 		E471A3EA24BE826500FFDBC0 /* ScanNGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3E924BE826500FFDBC0 /* ScanNGoUITests.swift */; };
+		E471A3F824BE9FBA00FFDBC0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E471A3E524BE826500FFDBC0 /* ScanNGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanNGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E471A3E924BE826500FFDBC0 /* ScanNGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNGoUITests.swift; sourceTree = "<group>"; };
 		E471A3EB24BE826500FFDBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				E471A3C424BE826300FFDBC0 /* SceneDelegate.swift */,
 				E471A3C624BE826300FFDBC0 /* FirstViewController.swift */,
 				E471A3C824BE826300FFDBC0 /* SecondViewController.swift */,
+				E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */,
 				E471A3CA24BE826300FFDBC0 /* Main.storyboard */,
 				E471A3D024BE826500FFDBC0 /* Assets.xcassets */,
 				E471A3D224BE826500FFDBC0 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				E471A3CF24BE826300FFDBC0 /* ScanNGo.xcdatamodeld in Sources */,
 				E471A3C724BE826300FFDBC0 /* FirstViewController.swift in Sources */,
 				E471A3C324BE826300FFDBC0 /* AppDelegate.swift in Sources */,
+				E471A3F824BE9FBA00FFDBC0 /* ThirdViewController.swift in Sources */,
 				E471A3C524BE826300FFDBC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
