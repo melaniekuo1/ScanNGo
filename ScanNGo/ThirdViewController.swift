@@ -8,8 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
-
+class ThirdViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var nameLabel: UILabel!
     
@@ -19,8 +18,23 @@ class ThirdViewController: UIViewController {
     @IBAction func enterButton(_ sender: UIButton) {
     }
     
+var imagePicker = UIImagePickerController()
     
-    @IBOutlet weak var profilePic: UIImageView!
+    @IBAction func profilePicButton(_ sender: UIButton) {
+        
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
+    }
+    @IBOutlet weak var newImage: UIImageView!
+    internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            newImage.image = selectedImage
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
+        
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

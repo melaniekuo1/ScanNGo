@@ -162,10 +162,6 @@
                                     <action selector="textfield:" destination="fXf-2j-vlb" eventType="editingDidEnd" id="fNt-Gt-wAV"/>
                                 </connections>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile photo" translatesAutoresizingMaskIntoConstraints="NO" id="KoS-Rt-Uin">
-                                <rect key="frame" x="121" y="131" width="173" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recently Purchased" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awn-YR-H11">
                                 <rect key="frame" x="20" y="612" width="153" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -188,6 +184,14 @@
                                     <action selector="enterButton:" destination="fXf-2j-vlb" eventType="touchUpInside" id="ew3-bj-ljh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OB-Gb-Dcx">
+                                <rect key="frame" x="121" y="124" width="173" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" backgroundImage="profile photo"/>
+                                <connections>
+                                    <action selector="profilePicButton:" destination="fXf-2j-vlb" eventType="touchUpInside" id="fZg-Ro-njl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qSj-Ib-cfX"/>
@@ -195,7 +199,6 @@
                     <tabBarItem key="tabBarItem" title="Item" id="wd5-f3-NkC"/>
                     <connections>
                         <outlet property="nameLabel" destination="IWU-1e-vhX" id="ELr-dZ-OKN"/>
-                        <outlet property="profilePic" destination="KoS-Rt-Uin" id="6sC-pL-83M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9p-u8-66s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
