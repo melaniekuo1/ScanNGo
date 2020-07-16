@@ -291,10 +291,10 @@
             </objects>
             <point key="canvasLocation" x="1471.0144927536232" y="-1.3392857142857142"/>
         </scene>
-        <!--Fourth View Controller-->
+        <!--Receipt Histroy-->
         <scene sceneID="auo-7M-w2g">
             <objects>
-                <viewController id="7rC-i1-cve" customClass="FourthViewController" customModule="ScanNGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Receipt Histroy" id="7rC-i1-cve" customClass="PhotoTableViewController" customModule="ScanNGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VcI-6E-rAw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,6 +334,15 @@
                                     <action selector="scanButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Qgx-4w-i0G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sip-pB-ruB">
+                                <rect key="frame" x="159" y="638" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Receipts"/>
+                                <connections>
+                                    <action selector="viewReceiptsButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="hkA-DT-BHS"/>
+                                    <segue destination="7rC-i1-cve" kind="show" id="5cI-us-Xqx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.86801363890000005" green="0.94292040379999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
@@ -366,7 +375,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rS6-cY-TFT"/>
+        <segue reference="5cI-us-Xqx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="applesauce" width="1500" height="1500"/>

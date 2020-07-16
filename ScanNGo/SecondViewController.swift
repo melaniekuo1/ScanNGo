@@ -17,6 +17,10 @@ var imagePicker = UIImagePickerController()
         present(imagePicker, animated: true, completion: nil)
     }
     
+    
+    @IBAction func viewReceiptsButton(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          imagePicker.delegate = self
