@@ -29,6 +29,7 @@ class PhotoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = "Test"
+        //cell.imageView?.image = UIImage
 
         // Configure the cell...
 

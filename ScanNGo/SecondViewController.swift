@@ -19,8 +19,15 @@ var imagePicker = UIImagePickerController()
     
     
     @IBAction func viewReceiptsButton(_ sender: UIButton) {
+        if ((UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext) != nil {
+    }
     }
     
+    
+ //   if let context = (UIApplication.shared.delegate as?
+   // AppDelegate)?.persistentContainer.viewContext {
+   // let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+        
     override func viewDidLoad() {
         super.viewDidLoad()
          imagePicker.delegate = self
