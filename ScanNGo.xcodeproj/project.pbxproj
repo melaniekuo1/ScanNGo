@@ -18,6 +18,7 @@
 		E471A3DF24BE826500FFDBC0 /* ScanNGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3DE24BE826500FFDBC0 /* ScanNGoTests.swift */; };
 		E471A3EA24BE826500FFDBC0 /* ScanNGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3E924BE826500FFDBC0 /* ScanNGoUITests.swift */; };
 		E471A3F824BE9FBA00FFDBC0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */; };
+		E481CB9424C0C39100C831F6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481CB9324C0C39100C831F6 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E471A3E924BE826500FFDBC0 /* ScanNGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNGoUITests.swift; sourceTree = "<group>"; };
 		E471A3EB24BE826500FFDBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E481CB9324C0C39100C831F6 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				E471A3C824BE826300FFDBC0 /* SecondViewController.swift */,
 				E471A3F724BE9FBA00FFDBC0 /* ThirdViewController.swift */,
 				E471A3CA24BE826300FFDBC0 /* Main.storyboard */,
+				E481CB9324C0C39100C831F6 /* FourthViewController.swift */,
 				E471A3D024BE826500FFDBC0 /* Assets.xcassets */,
 				E471A3D224BE826500FFDBC0 /* LaunchScreen.storyboard */,
 				E471A3D524BE826500FFDBC0 /* Info.plist */,
@@ -271,6 +274,7 @@
 				E471A3C924BE826300FFDBC0 /* SecondViewController.swift in Sources */,
 				E471A3CF24BE826300FFDBC0 /* ScanNGo.xcdatamodeld in Sources */,
 				E471A3C724BE826300FFDBC0 /* FirstViewController.swift in Sources */,
+				E481CB9424C0C39100C831F6 /* FourthViewController.swift in Sources */,
 				E471A3C324BE826300FFDBC0 /* AppDelegate.swift in Sources */,
 				E471A3F824BE9FBA00FFDBC0 /* ThirdViewController.swift in Sources */,
 				E471A3C524BE826300FFDBC0 /* SceneDelegate.swift in Sources */,

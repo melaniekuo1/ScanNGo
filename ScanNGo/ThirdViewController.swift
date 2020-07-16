@@ -12,10 +12,13 @@ class ThirdViewController: UIViewController, UIImagePickerControllerDelegate, UI
     
     @IBOutlet weak var nameLabel: UILabel!
     
-    @IBAction func textfield(_ sender: UITextField) {
-    }
+
+    @IBOutlet weak var textfield: UITextField!
     
     @IBAction func enterButton(_ sender: UIButton) {
+        if let newTitle = textfield.text {
+            nameLabel.text = newTitle
+        }
     }
     
 var imagePicker = UIImagePickerController()
