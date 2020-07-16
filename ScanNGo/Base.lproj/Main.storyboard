@@ -289,7 +289,7 @@
                         <color key="backgroundColor" red="0.86801363890000005" green="0.94292040379999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scan" image="second" selectedImage="plus.circle.fill" catalog="system" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Scan" selectedImage="plus.circle.fill" catalog="system" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -332,7 +332,6 @@
         <image name="profile photo" width="1280" height="1280"/>
         <image name="qfc" width="1540" height="800"/>
         <image name="safeway" width="610" height="458"/>
-        <image name="second" width="200" height="200"/>
         <image name="sprouts2" width="1024" height="738"/>
         <image name="walmart" width="960" height="640"/>
         <image name="wholefoods" width="723" height="482"/>
