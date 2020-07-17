@@ -28,10 +28,11 @@ var imagePicker = UIImagePickerController()
         imagePicker.sourceType = .photoLibrary
         present(imagePicker, animated: true, completion: nil)
     }
-    @IBOutlet weak var newImage: UIImageView!
+    
+    @IBOutlet weak var displayImage: UIImageView!
     internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            newImage.image = selectedImage
+            displayImage.image = selectedImage
         }
         imagePicker.dismiss(animated: true, completion: nil)
     }

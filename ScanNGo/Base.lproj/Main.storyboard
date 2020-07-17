@@ -197,7 +197,7 @@
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pHB-pH-gvH">
-                                <rect key="frame" x="159" y="324" width="97" height="34"/>
+                                <rect key="frame" x="159" y="335" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -205,13 +205,6 @@
                                     <action selector="textfield:" destination="fXf-2j-vlb" eventType="editingDidEnd" id="fNt-Gt-wAV"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-------------Your frequently ordered items--------------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awn-YR-H11">
-                                <rect key="frame" x="0.0" y="410" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWU-1e-vhX">
                                 <rect key="frame" x="124" y="286" width="166" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -219,52 +212,63 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bagel" translatesAutoresizingMaskIntoConstraints="NO" id="gSa-zS-jLg">
-                                <rect key="frame" x="20" y="462" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="applesauce" translatesAutoresizingMaskIntoConstraints="NO" id="gSa-zS-jLg">
+                                <rect key="frame" x="20" y="522" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="qEd-Id-Vdy">
-                                <rect key="frame" x="151" y="462" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butter" translatesAutoresizingMaskIntoConstraints="NO" id="qEd-Id-Vdy">
+                                <rect key="frame" x="151" y="522" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="applesauce" translatesAutoresizingMaskIntoConstraints="NO" id="scc-Qm-pwQ">
-                                <rect key="frame" x="20" y="611" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peanutbutter" translatesAutoresizingMaskIntoConstraints="NO" id="scc-Qm-pwQ">
+                                <rect key="frame" x="20" y="664" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peanutbutter" translatesAutoresizingMaskIntoConstraints="NO" id="idZ-2d-qpr">
-                                <rect key="frame" x="151" y="611" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ritz" translatesAutoresizingMaskIntoConstraints="NO" id="idZ-2d-qpr">
+                                <rect key="frame" x="151" y="664" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butter" translatesAutoresizingMaskIntoConstraints="NO" id="IY1-vN-OXg">
-                                <rect key="frame" x="281" y="462" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="IY1-vN-OXg">
+                                <rect key="frame" x="281" y="522" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yogurt" translatesAutoresizingMaskIntoConstraints="NO" id="P4c-ra-3yH">
-                                <rect key="frame" x="281" y="611" width="113" height="113"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoplait" translatesAutoresizingMaskIntoConstraints="NO" id="P4c-ra-3yH">
+                                <rect key="frame" x="281" y="664" width="113" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OB-Gb-Dcx">
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OB-Gb-Dcx">
                                 <rect key="frame" x="121" y="112" width="173" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="profile photo"/>
                                 <connections>
                                     <action selector="profilePicButton:" destination="fXf-2j-vlb" eventType="touchUpInside" id="fZg-Ro-njl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QX6-XY-JIn">
-                                <rect key="frame" x="189" y="372" width="37" height="30"/>
+                                <rect key="frame" x="189" y="390" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter"/>
                                 <connections>
                                     <action selector="enterButton:" destination="fXf-2j-vlb" eventType="touchUpInside" id="ew3-bj-ljh"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile photo" translatesAutoresizingMaskIntoConstraints="NO" id="X9l-9g-Whv">
+                                <rect key="frame" x="121" y="112" width="173" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-------------Your frequently ordered items--------------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awn-YR-H11">
+                                <rect key="frame" x="0.0" y="454" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.86801363890000005" green="0.94292040379999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="qSj-Ib-cfX"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Account" image="person.fill" catalog="system" selectedImage="person.fill" id="wd5-f3-NkC"/>
                     <connections>
+                        <outlet property="displayImage" destination="X9l-9g-Whv" id="elC-0P-Vdm"/>
                         <outlet property="nameLabel" destination="IWU-1e-vhX" id="ELr-dZ-OKN"/>
                         <outlet property="textfield" destination="pHB-pH-gvH" id="6qi-Iw-C6m"/>
                     </connections>
@@ -344,21 +348,21 @@
         </scene>
     </scenes>
     <resources>
-        <image name="applesauce" width="1500" height="1500"/>
-        <image name="avocado" width="488" height="488"/>
-        <image name="bagel" width="488" height="488"/>
-        <image name="butter" width="450" height="450"/>
+        <image name="applesauce" width="591" height="422"/>
+        <image name="avocado" width="816" height="758"/>
+        <image name="butter" width="500" height="500"/>
         <image name="fredmeyer" width="1200" height="768"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
-        <image name="peanutbutter" width="488" height="488"/>
+        <image name="peanutbutter" width="494" height="505"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="profile photo" width="1280" height="1280"/>
         <image name="qfc" width="1540" height="800"/>
+        <image name="ritz" width="594" height="420"/>
         <image name="safeway" width="610" height="458"/>
         <image name="sprouts2" width="1024" height="738"/>
         <image name="walmart" width="960" height="640"/>
         <image name="wholefoods" width="723" height="482"/>
-        <image name="yogurt" width="1300" height="1300"/>
+        <image name="yoplait" width="460" height="460"/>
     </resources>
 </document>
