@@ -285,9 +285,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87c-Tw-MBg">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87c-Tw-MBg">
                                 <rect key="frame" x="78" y="128" width="259" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61983618016135034" green="0.75233607378222755" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Scan Items">
                                     <attributedString key="attributedTitle">
@@ -314,13 +313,30 @@
                                 <rect key="frame" x="84" y="438" width="247" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDa-Qb-VSA">
+                                <rect key="frame" x="133" y="274" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scan Additional Items"/>
+                                <connections>
+                                    <action selector="scanButtonTwo:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="HCM-RN-EUj"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N8r-1B-jHJ">
+                                <rect key="frame" x="84" y="639" width="247" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.86801363890000005" green="0.94292040379999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="87c-Tw-MBg" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="78" id="Q5M-Sc-uBh"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="87c-Tw-MBg" secondAttribute="trailing" constant="77" id="ujT-ED-cEk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scan" image="plus.circle.fill" catalog="system" selectedImage="plus.circle.fill" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="receiptOne" destination="ClR-W0-Cly" id="Sza-vi-Xps"/>
+                        <outlet property="receiptTwo" destination="N8r-1B-jHJ" id="239-dF-yt4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
