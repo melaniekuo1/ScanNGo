@@ -44,6 +44,8 @@ var imagePicker = UIImagePickerController()
         super.viewDidLoad()
 
         imagePicker.delegate = self
+        
+        hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
     }
     
@@ -59,3 +61,15 @@ var imagePicker = UIImagePickerController()
     */
 
 }
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
