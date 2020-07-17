@@ -14,12 +14,6 @@ class SecondViewController: UIViewController, UIImagePickerControllerDelegate, U
 var imagePicker = UIImagePickerController()
     
     
-@IBAction func scanButton(_ sender: UIButton) {
-        imagePicker.sourceType = .camera
-        
-        present(imagePicker, animated: true, completion: nil)
-    }
-    
 @IBOutlet weak var receiptOne: UIImageView!
     internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
